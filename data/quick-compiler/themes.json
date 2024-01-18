@@ -1,0 +1,226 @@
+[
+  {
+    "value": "vs-dark",
+    "label": "VS Dark"
+  },
+  {
+    "value": "light",
+    "label": "VS Light"
+  },
+  {
+    "value": "Active4D",
+    "label": "Active4D"
+  },
+  {
+    "value": "All-Hallows-Eve",
+    "label": "All Hallows Eve"
+  },
+  {
+    "value": "Amy",
+    "label": "Amy"
+  },
+  {
+    "value": "Birds-of-Paradise",
+    "label": "Birds of Paradise"
+  },
+  {
+    "value": "Blackboard",
+    "label": "Blackboard"
+  },
+  {
+    "value": "Brilliance-Black",
+    "label": "Brilliance Black"
+  },
+  {
+    "value": "Brilliance-Dull",
+    "label": "Brilliance Dull"
+  },
+  {
+    "value": "Chrome-DevTools",
+    "label": "Chrome DevTools"
+  },
+  {
+    "value": "Clouds-Midnight",
+    "label": "Clouds Midnight"
+  },
+  {
+    "value": "Clouds",
+    "label": "Clouds"
+  },
+  {
+    "value": "Cobalt",
+    "label": "Cobalt"
+  },
+  {
+    "value": "Cobalt2",
+    "label": "Cobalt2"
+  },
+  {
+    "value": "Dawn",
+    "label": "Dawn"
+  },
+  {
+    "value": "Dominion-Day",
+    "label": "Dominion Day"
+  },
+  {
+    "value": "Dracula",
+    "label": "Dracula"
+  },
+  {
+    "value": "Dreamweaver",
+    "label": "Dreamweaver"
+  },
+  {
+    "value": "Eiffel",
+    "label": "Eiffel"
+  },
+  {
+    "value": "Espresso-Libre",
+    "label": "Espresso Libre"
+  },
+  {
+    "value": "GitHub-Dark",
+    "label": "GitHub Dark"
+  },
+  {
+    "value": "GitHub-Light",
+    "label": "GitHub Light"
+  },
+  {
+    "value": "GitHub",
+    "label": "GitHub"
+  },
+  {
+    "value": "IDLE",
+    "label": "IDLE"
+  },
+  {
+    "value": "idleFingers",
+    "label": "idleFingers"
+  },
+  {
+    "value": "iPlastic",
+    "label": "iPlastic"
+  },
+  {
+    "value": "Katzenmilch",
+    "label": "Katzenmilch"
+  },
+  {
+    "value": "krTheme",
+    "label": "krTheme"
+  },
+  {
+    "value": "Kuroir-Theme",
+    "label": "Kuroir Theme"
+  },
+  {
+    "value": "LAZY",
+    "label": "LAZY"
+  },
+  {
+    "value": "MagicWB",
+    "label": "MagicWB"
+  },
+  {
+    "value": "Merbivore-Soft",
+    "label": "Merbivore Soft"
+  },
+  {
+    "value": "Merbivore",
+    "label": "Merbivore"
+  },
+  {
+    "value": "monoindustrial",
+    "label": "monoindustrial"
+  },
+  {
+    "value": "Monokai-Bright",
+    "label": "Monokai Bright"
+  },
+  {
+    "value": "Monokai",
+    "label": "Monokai"
+  },
+  {
+    "value": "Night-Owl",
+    "label": "Night Owl"
+  },
+  {
+    "value": "Nord",
+    "label": "Nord"
+  },
+  {
+    "value": "Oceani-Next",
+    "label": "Oceani Next"
+  },
+  {
+    "value": "Pastels-on-Dark",
+    "label": "Pastels on Dark"
+  },
+  {
+    "value": "Slush-and-Poppies",
+    "label": "Slush and Poppies"
+  },
+  {
+    "value": "Solarized-dark",
+    "label": "Solarized dark"
+  },
+  {
+    "value": "Solarized-light",
+    "label": "Solarized light"
+  },
+  {
+    "value": "SpaceCadet",
+    "label": "SpaceCadet"
+  },
+  {
+    "value": "Sunburst",
+    "label": "Sunburst"
+  },
+  {
+    "value": "Mac-Classic",
+    "label": "Mac Classic"
+  },
+  {
+    "value": "Tomorrow-Night-Blue",
+    "label": "Tomorrow Night Blue"
+  },
+  {
+    "value": "Tomorrow-Night-Bright",
+    "label": "Tomorrow Night Bright"
+  },
+  {
+    "value": "Tomorrow-Night-Eighties",
+    "label": "Tomorrow Night Eighties"
+  },
+  {
+    "value": "Tomorrow-Night",
+    "label": "Tomorrow Night"
+  },
+  {
+    "value": "Tomorrow",
+    "label": "Tomorrow"
+  },
+  {
+    "value": "Twilight",
+    "label": "Twilight"
+  },
+  {
+    "value": "Upstream-Sunburst",
+    "label": "Upstream Sunburst"
+  },
+  {
+    "value": "Vibrant-Ink",
+    "label": "Vibrant Ink"
+  },
+  {
+    "value": "Xcode",
+    "label": "Xcode"
+  },
+  {
+    "value": "Zenburnesque",
+    "label": "Zenburnesque"
+  }
+]
