@@ -84,33 +84,3 @@ export async function getServerSideProps(context) {
   };
 }
 
-// export async function getServerSideProps(context) {
-//   const uuid = context.query.id;
-
-//   //   try {
-//   const res = await fetch(`${server}/api/getCode`, {
-//     method: 'POST',
-//     headers: {
-//       Accept: 'application/json',
-//       'Content-Type': 'application/json',
-//     },
-//     body: JSON.stringify({ uuid }),
-//   });
-
-//   const data = await res.json();
-
-//   if (!data || !data.success || !data.data.length) {
-//     console.log('Not Found');
-//     return {
-//       props: {
-//         data: false,
-//       },
-//     };
-//   }
-
-//   return {
-//     props: {
-//       data: data.data[0],
-//     },
-//   };
-// }

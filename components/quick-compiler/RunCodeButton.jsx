@@ -2,26 +2,27 @@ import { AppContext } from 'context/quick-compiler/AppContext';
 import Image from 'next/image';
 import { useContext } from 'react';
 import { toast } from 'react-hot-toast';
-import { printConsole } from 'utils/quick-compiler/printConsole';
 
 export default function RunCodeButton() {
-  const { language, inp, editorRef, loading, setLoading, setOutput, setInp } = useContext(AppContext);
+  const { language, inp, editorRef, loading, setLoading, setOutput } = useContext(AppContext);
 
   const compileCode = async (code) => {
     setLoading(true);
     try {
-      const res = await fetch('/api/runCode', {
+      const res = await fetch('https://new-api-fnsb.onrender.com/api/compile', {
         method: 'POST',
         headers: {
           Accept: 'application/json',
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ lang: language, input: inp, code }),
+        body: JSON.stringify({ code:code,language: language, input: inp }),
       });
       const data = await res.json();
-      if (!data.success) throw 'Something Went Wrong!';
-      setOutput(data.op);
-      // printConsole('Response', data);
+      if (typeof data.message === 'string'){
+        console.log(data.message)
+        setOutput(data.message);
+      }else
+        setOutput(JSON.stringify(res.data.message))
     } catch (err) {
       // printConsole('Error in POST API', err);
       toast.error('Something Went Wrong !');

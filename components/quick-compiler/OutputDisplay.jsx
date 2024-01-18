@@ -12,7 +12,6 @@ function UploadSTDIN() {
 
   function handleOnChange(e) {
     e.preventDefault();
-
     const reader = new FileReader();
 
     if (e.target.files.length === 0) {
@@ -75,15 +74,9 @@ function DownloadSTDOUT({ fileData }) {
 export default function OutputDisplay() {
   const { inp, setInp, output, getFileName } = useContext(AppContext);
   const { myColors, myFont, myFontSize } = useContext(SettingsContext);
-
   const [copyButton, setCopyButton] = useState({ stdin: 'copy', stdout: 'copy' });
 
-  let printOp = output ? (output?.stdout === '' ? output?.stderr : output?.stdout) : '';
-
-  if (output && output.errorType) {
-    printOp = printOp.replaceAll(`${output.file}`, getFileName());
-    printOp = `ERROR TYPE: ${output.errorType}\n\n` + printOp;
-  }
+  let printOp = output
 
   const handleCopy = (std) => {
     try {
