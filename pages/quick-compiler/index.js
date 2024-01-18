@@ -29,7 +29,7 @@ export default function QuickCompiler() {
   return (
     <>
       <Head>
-        <title>Quick Compiler - CodeHelp Labs</title>
+        <title>Online Compiler</title>
       </Head>
       <QuickCompilerRoot />
     </>

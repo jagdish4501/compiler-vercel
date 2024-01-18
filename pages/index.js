@@ -1,12 +1,11 @@
 import Head from 'next/head';
-import Link from 'next/link';
 import Script from 'next/script';
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>CodeHelp Labs</title>
+        <title>Online Compiler</title>
       </Head>
       <Script id="redirect">
         {`

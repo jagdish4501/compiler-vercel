@@ -2,34 +2,34 @@ import { useMonaco } from '@monaco-editor/react';
 import { createContext, useRef, useState } from 'react';
 import { getFileExtension } from 'utils/quick-compiler/getFileExtension';
 
-const Languages = ['cpp', 'c', 'java', 'python', 'javascript'];
+const Languages = ['python', 'javascript', 'cpp', 'c', 'java'];
 const DefaultValues = [
-  `#include <iostream>
-using namespace std;
-
-int main() {
-  cout << "Hello world!" << endl;
-  return 0;
-}`,
-  `#include <stdio.h>
-
-int main() {
-  printf("Hello world!");
-  return 0;
-}`,
-  `import java.util.*;
-import java.lang.*;
-import java.io.*;
-
-// The main method must be in a class named "Main"
-class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
-    }
-}
-`,
   `print('Hello world!')`,
   `console.log('Hello world!');`,
+  `#include <iostream>
+  using namespace std;
+  
+  int main() {
+    cout << "Hello world!" << endl;
+    return 0;
+  }`,
+  `#include <stdio.h>
+  
+  int main() {
+    printf("Hello world!");
+    return 0;
+  }`,
+  `import java.util.*;
+  import java.lang.*;
+  import java.io.*;
+  
+  // The main method must be in a class named "Main"
+  class Main {
+      public static void main(String[] args) {
+          System.out.println("Hello world!");
+      }
+  }
+  `
 ];
 
 export const AppContext = createContext();

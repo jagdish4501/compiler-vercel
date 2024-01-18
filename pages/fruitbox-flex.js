@@ -6,7 +6,7 @@ export default function FruitboxFlex() {
   return (
     <>
       <Head>
-        <title>Fruitbox Flex - CodeHelp Labs</title>
+        <title>Fruitbox Flex</title>
       </Head>
       <FruitboxRoot />
     </>
