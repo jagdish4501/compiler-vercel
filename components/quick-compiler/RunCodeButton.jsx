@@ -9,7 +9,7 @@ export default function RunCodeButton() {
   const compileCode = async (code) => {
     setLoading(true);
     try {
-      const res = await fetch('https://new-api-fnsb.onrender.com/api/compile', {
+      const res = await fetch('http://3.111.208.57/api/compile', {
         method: 'POST',
         headers: {
           Accept: 'application/json',
